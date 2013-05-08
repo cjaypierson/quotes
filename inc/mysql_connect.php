@@ -1,5 +1,5 @@
 <?php
-$dbc = mysql_connect('localhost:3306', 'cameron', 'summer05');
+$dbc = mysql_connect('localhost', 'pierson3_cameron', 'Summer9(');
 	if (!$dbc) {
 		print('something went wrong');
 	}
