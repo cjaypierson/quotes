@@ -25,7 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 			$favorite = 0;
 		}
 
-		$query = "INSERT INTO  quotes (quote, source, favorite) VALUES ('$quote', '$source', '$favorite')";
+		$query = "INSERT INTO quotes (quote, source, favorite) VALUES ('$quote', '$source', '$favorite')";
 		$r = mysql_query($query, $dbc);
 
 		if (mysql_affected_rows($dbc) == 1) {
