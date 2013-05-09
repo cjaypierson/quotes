@@ -1,1 +1,1 @@
-<?php `git pull https://github.com/cjaypierson/quotes.git`;
+<?php `git pull`;
