@@ -1,7 +1,7 @@
 <?php
 define('TITLE', 'Add a Quote');
 include('tem/header.php');
-print '<h2>Add Your Quote</h2>';
+print '<h2>Add a Quotation</h2>';
 
 
 if (!is_administrator()) {
