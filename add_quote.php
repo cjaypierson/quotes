@@ -4,12 +4,7 @@ include('tem/header.php');
 print '<h2>Add a Quotation</h2>';
 
 
-if (!is_administrator()) {
-	print '<h2>Access Denied!</h2>
-		<p class="error">You have to <a href="login.php">login</a> to view this page.</p>';
-	include('tem/footer.php');
-	exit();
-}
+is_administrator()
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if (!empty($_POST['quote']) && !empty($_POST['source']) ) {
