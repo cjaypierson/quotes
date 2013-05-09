@@ -4,7 +4,7 @@ include('tem/header.php');
 print '<h2>Add a Quotation</h2>';
 
 
-is_administrator();
+admincheck();
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
 	if (!empty($_POST['quote']) && !empty($_POST['source']) ) {
