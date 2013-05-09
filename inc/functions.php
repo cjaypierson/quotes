@@ -7,7 +7,7 @@ function is_administrator($name = 'Samuel', $value = 'Clemens') {
         include('tem/footer.php');
         exit();
     } else {
-    	
+    	return true;
     }
 }
 
